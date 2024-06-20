@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 30px;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.landing {
+    background-color: #1f2937;
+
+}
+.landing header {
+    display: flex;
+    justify-content: space-between;
+}
+.landing header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+.landing header nav ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.landing header nav a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+
+}
+.landing .hero {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.landing .hero > * {
+    flex: 1;
+}
+.landing .hero img {
+    max-width: 100%;
+    height: auto;
+}
+.landing .hero .content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.landing .hero .content p {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.landing .hero .content button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 15px;
+    border-radius: 15px;
+}
+.info h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.info .cards {
+    display: flex;
+    gap: 20px;
+}
+.info .cards img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+.quote {
+    background-color: #e5e7eb;
+}
+.quote .container {
+    display: flex;
+    flex-direction: column;
+}
+.quote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote strong {
+    font-size: 24px;
+    align-self: flex-end;
+    margin-right: 70px;
+}
+.call-to-action {
+    margin-block: 50px;
+}
+.call-to-action .container {
+    background-color: #3882f6;
+    min-height: initial;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.call-to-action .button {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action button {
+    padding: 10px 30px;
+    background-color: #3882f6;
+    color: #f7fafe;
+    border: 2px solid #f7fafe;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.call-to-action h3 {
+    color: #f7fafe;
+    font-size: 30px;
+    margin: 0;
+}
+.call-to-action p {
+    font-size: 18px;
+    margin-block: 5px;
+    color: #e5e7eb;
+}
+.call-to-action .content-wrapper {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background-color: #1f2937;
+}
+footer .container {
+    min-height: initial;
+    flex-direction: row;
+}
+footer p {
+    color: #f5f6f6;
+}
